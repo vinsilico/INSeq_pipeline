@@ -1,5 +1,5 @@
 #/usr/local/bin/
-
+# A script to map TA motif in a given genome. Outputs a tsv file with replicon name, TA, start, end. 
 
 $number_args = $#ARGV + 1;
 if ($number_args != 1) {
